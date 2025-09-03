@@ -64,8 +64,6 @@ if not shared.Viethin.Connections["Receiver"] then
     end
 end
 
-shared.Viethin.Pending = false
-
 function self:Change(Table)
     if shared.Viethin.Pending then return end;
     shared.Viethin.Pending = true;
